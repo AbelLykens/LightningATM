@@ -389,13 +389,13 @@ def draw_lnurl_qr(qr_img):
     draw = ImageDraw.Draw(image)
     draw.bitmap((0, 0), qr_img, fill=config.WHITE)
     draw.text(
-        (140, 35),
+        (135, 35),
         messages.lnurl_qr_1,
         fill=config.WHITE,
         font=utils.create_font("freemonobold", 22),
     )
     draw.text(
-        (140, 55),
+        (135, 55),
         messages.lnurl_qr_2,
         fill=config.WHITE,
         font=utils.create_font("freemonobold", 22),
