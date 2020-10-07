@@ -3,6 +3,9 @@ startup_screen_1 = "Dit is de...."
 startup_screen_2 = "PennieMATM!"
 startup_screen_3 = "Gooi muntjes erin :)"
 
+# Text for error_screen()
+error_screen_1 = "Probleem:"
+
 # Text for update_qr_request()
 qr_request_1 = "Scan nu je"
 qr_request_2 = "invoice"
